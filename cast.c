@@ -1,13 +1,12 @@
 #include <stdio.h>
 int main()
 {
- int x, y, result;
- x = 5;
- y = 7;
- result = (x * y);
+ int x, y;
+ x = 7;
+ y = 5;
 
- printf("The multiplication of %d and %d is: %d\n", x, y, result);
- x = ++x;
- printf("Given the value of %d its new value is %d", x);
+ printf("Given x = %d, y = %d\n", x, y);
+ printf("x / y produces: %d\n", x / y);
+ printf("(float)x / y produces: %f\n", (float)x / y);
  return 0;
 }
