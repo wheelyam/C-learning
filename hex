@@ -1,0 +1,10 @@
+#include  <stdio.h>
+int main()
+{
+ printf("Hex(uppercase)   Hex(lowercase)   decimal\n");
+ printf("%X               %x               %d\n", 0, 0, 0);
+ printf("%X               %x               %d\n", 1, 1, 1);
+ printf("%X               %x               %d\n", 2, 2, 2);
+ printf("%X               %x               %d\n", 3, 3, 3);
+ return 0;
+}

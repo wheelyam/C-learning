@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main()
+{
+ int num;
+ num = 0;
+ printf("The AND operator yields: %d\n",
+         (num%2 == 0) && (num
